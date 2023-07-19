@@ -2,7 +2,7 @@ h1#title {
     text-align: center;
 }
 body{
-    background-color: rgb(236, 208, 208);
+    background-color: rgb(135, 252, 160);
 }
 
 #color-palette {
@@ -41,8 +41,10 @@ body{
     border-style: solid;
     border-color:purple;
 }
-#clear-board {
-    display: inline-block;
-    border-radius: 1px;
-    margin-left: 600px;
+.BTN{
+    display: flex;
+    justify-content:center ;
+    place-items: center;
+    height: 100vh;
 }
+    

@@ -30,3 +30,11 @@ function FillPixel() {
 
 selectColor();
 FillPixel();
+function clearBoard() {
+  const pixels = document.querySelectorAll('.pixel');
+  pixels.forEach((pixel) => {
+    pixel.style.backgroundColor = 'white';
+  });
+}
+const clearButton = document.getElementById('clear-board');
+clearButton.addEventListener('click', clearBoard);
