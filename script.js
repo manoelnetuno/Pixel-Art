@@ -16,3 +16,17 @@ function selectColor(colorElement) {
     }
   });
 }
+function FillPixel() {
+  const pixels = document.querySelectorAll('.pixel');
+  pixels.forEach((pixel) => {
+    pixel.addEventListener('click', () => {
+      const selectedColor = document.querySelector('.selected');
+      if (selectedColor) {
+        pixel.style.backgroundColor = selectedColor.style.backgroundColor;
+      }
+    });
+  });
+}
+
+selectColor();
+FillPixel();

@@ -1,6 +1,9 @@
 h1#title {
     text-align: center;
 }
+body{
+    background-color: rgb(236, 208, 208);
+}
 
 #color-palette {
     display: flex;
@@ -24,10 +27,7 @@ h1#title {
     margin-top: 20px;
 
 }
-.selected{
-    border: 8px, outset rebeccapurple;
-    
-}
+
 
 .pixel {
     background-color: white;
@@ -39,5 +39,10 @@ h1#title {
 .selected {
     border-width: 3px;
     border-style: solid;
-    border-color: black;
+    border-color:purple;
+}
+#clear-board {
+    display: inline-block;
+    border-radius: 1px;
+    margin-left: 600px;
 }
