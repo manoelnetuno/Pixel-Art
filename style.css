@@ -14,6 +14,7 @@ h1#title {
     margin: 10px;
     border: 1px solid black;
 }
+
 #pixel-board{
     display: grid;
     grid-template-columns: repeat(5, 40px);
@@ -23,6 +24,11 @@ h1#title {
     margin-top: 20px;
 
 }
+.selected{
+    border: 8px, outset rebeccapurple;
+    
+}
+
 .pixel {
     background-color: white;
     border: 1px solid black;
@@ -30,4 +36,8 @@ h1#title {
     height: 40px;
     box-sizing: border-box;
 }	
- 
+.selected {
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+}
