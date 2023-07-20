@@ -47,7 +47,7 @@ const funcaoCoresAleatorias = () => {
     const coresAleatorias2 = Math.floor(Math.random() * 255);
     const coresAleatorias3 = Math.floor(Math.random() * 255);
     const coresAleatorias4 = Math.floor(Math.random() * 255);
-    cores.style.backgroundColor = `rgb(${coresAleatorias1}, ${coresAleatorias2}, ${coresAleatorias3},${coresAleatorias4})`;
-  }
-};const coresAleatoriasBotao = document.getElementById('button-random-color');
+    cores.style.backgroundColor =`rgb(${coresAleatorias1}, ${coresAleatorias2}, ${coresAleatorias3},${coresAleatorias4})`;};
+};
+const coresAleatoriasBotao = document.getElementById('button-random-color');
 coresAleatoriasBotao.addEventListener('click', funcaoCoresAleatorias);
