@@ -27,9 +27,9 @@ function FillPixel() {
     });
   });
 }
-
 selectColor();
 FillPixel();
+
 function clearBoard() {
   const pixels = document.querySelectorAll('.pixel');
   pixels.forEach((pixel) => {
@@ -38,3 +38,16 @@ function clearBoard() {
 }
 const clearButton = document.getElementById('clear-board');
 clearButton.addEventListener('click', clearBoard);
+
+const funcaoCoresAleatorias = () => {
+  const colors = document.getElementsByClassName('color-box color');
+  for (let indexCores = 0; indexCores < colors.length; indexCores += 1) {
+    const cores = colors[indexCores];
+    const coresAleatorias1 = Math.floor(Math.random() * 255);
+    const coresAleatorias2 = Math.floor(Math.random() * 255);
+    const coresAleatorias3 = Math.floor(Math.random() * 255);
+    const coresAleatorias4 = Math.floor(Math.random() * 255);
+    cores.style.backgroundColor = `rgb(${coresAleatorias1}, ${coresAleatorias2}, ${coresAleatorias3},${coresAleatorias4})`;
+  }
+};const coresAleatoriasBotao = document.getElementById('button-random-color');
+coresAleatoriasBotao.addEventListener('click', funcaoCoresAleatorias);

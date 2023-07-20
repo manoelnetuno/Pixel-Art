@@ -4,12 +4,10 @@ h1#title {
 body{
     background-color: rgb(135, 252, 160);
 }
-
 #color-palette {
     display: flex;
     justify-content: center;
 }
-
 .color-box {
     width: 100px;
     height: 100px;
@@ -17,7 +15,6 @@ body{
     margin: 10px;
     border: 1px solid black;
 }
-
 #pixel-board{
     display: grid;
     grid-template-columns: repeat(5, 40px);
@@ -27,8 +24,6 @@ body{
     margin-top: 20px;
 
 }
-
-
 .pixel {
     background-color: white;
     border: 1px solid black;
@@ -41,10 +36,3 @@ body{
     border-style: solid;
     border-color:purple;
 }
-.BTN{
-    display: flex;
-    justify-content:center ;
-    place-items: center;
-    height: 100vh;
-}
-    
