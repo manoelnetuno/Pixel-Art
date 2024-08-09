@@ -1,8 +1,11 @@
 h1#title {
     text-align: center;
+    color: aliceblue;
+    font: size 10000000px;;
+    font-family: 'Times New Roman', Times, serif; 
 }
 body{
-    background-color: rgb(135, 252, 160);
+    background-image: url('image/hero-image.fill_.size_994x559.v1678673186-696x391.jpg');
 }
 #color-palette {
     display: flex;
@@ -32,7 +35,15 @@ body{
     box-sizing: border-box;
 }	
 .selected {
-    border-width: 3px;
+    border-width: 5px;
     border-style: solid;
-    border-color:purple;
+    border-image: url('image/pixels.jpeg') 30 30 round;
+    border-radius: 5px;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    gap: 5px;
 }
