@@ -51,3 +51,4 @@ const funcaoCoresAleatorias = () => {
 };
 const coresAleatoriasBotao = document.getElementById('button-random-color');
 coresAleatoriasBotao.addEventListener('click', funcaoCoresAleatorias);
+
