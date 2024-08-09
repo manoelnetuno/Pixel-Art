@@ -4,20 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title> Pixel art </title>
+    <link rel="icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/commons/0/06/Pac_Man.svg">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1 id="title">Paleta de Cores</h1>
+    <h1 id="title">PALETA DE CORES</h1>
     <div id="color-palette">
-        <div class="color-box color" style="background-color: #044b02;"onclick="selectColor(this)" ></div>
-        <div class="color-box color" style="background-color: #26991e;"onclick="selectColor(this)"></div>
-        <div class="color-box color" style="background-color: #61c229;"onclick="selectColor(this)"></div>
-        <div class="color-box color" style="background-color: #25db15;"onclick="selectColor(this)"></div>
+        <div class="color-box color" style="background-color: #f30c0c;" onclick="selectColor(this)" ></div>
+    
+        <div class="color-box color" style="background-color: #40f5e6;" onclick="selectColor(this)" ></div>
+        
+        <div class="color-box color" style="background-color: #c28c21;" onclick="selectColor(this)" ></div>
+
+        <div class="color-box color" style="background-color: #d8db15;" onclick="selectColor(this)" ></div>
     </div>
-    <button id="clear-board">Limpar</button>
-    <button id="button-random-color">Cores aleatórias</button>
+    <div id="buttons">
+        <button id="clear-board">Limpar</button>
+        <button id="button-random-color">Cores aleatórias</button>
+    </div>
     <div id="pixel-board"></div>
 </div>
 <script src="script.js"></script>
