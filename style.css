@@ -1,8 +1,24 @@
 h1#title {
     text-align: center;
+    background: black;
     color: aliceblue;
     font: size 10000000px;;
     font-family: 'Times New Roman', Times, serif; 
+}
+#title-two {
+ text-align: center;
+ background-color: black;
+ color: aliceblue;
+ font: size 10000000px;;
+ font-family: 'Times New Roman', Times, serif;
+}
+#titlebox {
+    display:flex;
+    justify-content: center;
+}
+#titlebox-two {
+    display: flex;
+    justify-content: center;
 }
 body{
     background-image: url('image/hero-image.fill_.size_994x559.v1678673186-696x391.jpg');
