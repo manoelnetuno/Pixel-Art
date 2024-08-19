@@ -37,7 +37,7 @@ body{
 #pixel-board{
     display: grid;
     grid-template-columns: repeat(5, 40px);
-    grid-template-rows: repeat(5, 40px);
+    grid-template-rows: repeat(7, 40px);
     gap: 1px;
     justify-content: center;
     margin-top: 20px;
